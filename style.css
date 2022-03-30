@@ -1,0 +1,118 @@
+:root {
+  --warna1: #edf2f7;
+  --warna2: #ffcf54;
+  --warna3: #ffdf99;
+  --warna4: #2b2b29;
+  --warna5: #e2e8f0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bayangan {
+  box-shadow: 13px 13px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.neo {
+  box-shadow: 13px 14px 21px 0 rgba(0, 0, 0, 0.1), -10px -10px 30px 0 #fff;
+}
+
+.judul {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+/* SECTION 3 TRANSISI 2 */
+#section3-2 {
+  height: 100vh;
+  padding: 40px 5% 0 5%;
+  background-color: var(--warna1);
+  background-image: url(assets/images/bg-3.2.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position-x: -40px;
+  background-position-y: -60px;
+}
+
+#section3-2 .transisi2-title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-70px, -120px);
+  width: 70%;
+  height: 150px;
+  background-color: var(--warna1);
+}
+
+#section3-2 .fitur1 {
+  position: absolute;
+  width: 900px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(42px);
+  backdrop-filter: blur(42px);
+  background-color: var(--warna2);
+}
+
+#section3-2 .fitur2 {
+  position: absolute;
+  width: 900px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(42px);
+  backdrop-filter: blur(42px);
+  background-color: var(--warna2);
+}
+
+#section3-2 .fitur3 {
+  position: absolute;
+  width: 900px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(42px);
+  backdrop-filter: blur(42px);
+  background-color: var(--warna2);
+}
+
+#section3-2 .box-fitur {
+  display: block;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #ffeac1;
+  color: #4a5568;
+  border-radius: 5px;
+}
+
+#section3-2 .box-fitur img {
+  width: 60px;
+  height: 60px;
+}
+
+#section3-2 .slide-indicator {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: -75px;
+  width: 300px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+}
