@@ -14,20 +14,22 @@ ScrollTrigger.create({
 
 const tl1 = gsap.timeline();
 tl1
-  .fromTo(".fitur2", { x: 1000 }, { x: 0 })
-  .fromTo(".slide-indicator", { x: -10 }, { x: 290 }, "<")
-  .fromTo(".fitur3", { x: 2000 }, { x: 1000 }, "<")
-  .fromTo(".fitur1", { x: 0 }, { x: -1000 }, "<")
-  .fromTo(".fitur3", { x: 1000 }, { x: 0 })
-  .fromTo(".fitur2", { x: 0 }, { x: -1000 }, "<")
-  .fromTo('.fitur1', { x: -1000 }, { x: -2000 }, "<")
-  .fromTo(".slide-indicator", { x: 290 }, { x: 590 }, "<");
+  // .fromTo(".indicator", { opacity: 0 }, { opacity: 1 }, "<")
+  // .fromTo(".fitur1", { x: 1000, opacity: 0 }, { x: 0, opacity: 1 })
+  .fromTo(".fitur2", { x: 1500 }, { x: 0 })
+  .fromTo(".indicator", { x: -10 }, { x: 490 }, "<")
+  .fromTo(".fitur3", { x: 2000 }, { x: 1500 }, "<")
+  .fromTo(".fitur1", { x: 0 }, { x: -1500 }, "<")
+  .fromTo(".fitur3", { x: 1500 }, { x: 0 })
+  .fromTo(".fitur2", { x: 0 }, { x: -1500 }, "<")
+  .fromTo('.fitur1', { x: -1500 }, { x: -3000 }, "<")
+  .fromTo(".indicator", { x: 490 }, { x: 990 }, "<");
 
 ScrollTrigger.create({
   animation: tl1,
   trigger: "#section3-2",
   start: "top top",
-  end: "+=400",
+  end: "+=1000",
   scrub: 1,
   pin: true,
   anticipatePin: 1,

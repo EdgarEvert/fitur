@@ -26,14 +26,22 @@ body {
 /* SECTION 3 TRANSISI 2 */
 #section3-2 {
   height: 100vh;
-  padding: 40px 5% 0 5%;
+  padding: 90px 5%;
   background-color: var(--warna1);
   background-image: url(assets/images/bg-3.2.png);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position-x: -40px;
-  background-position-y: -60px;
+  background-position-y: -80px;
 }
+
+/* .bg-3-2 {
+  position: absolute;
+  transform: scale(0.8);
+  margin-top: -150px;
+  margin-left: -180px;
+  z-index: 0;
+} */
 
 #section3-2 .transisi2-title {
   position: absolute;
@@ -47,7 +55,8 @@ body {
 
 #section3-2 .fitur1 {
   position: absolute;
-  width: 900px;
+  width: 1316px;
+  height: 500px;
   left: 0px;
   right: 0px;
   margin-left: auto;
@@ -63,7 +72,8 @@ body {
 
 #section3-2 .fitur2 {
   position: absolute;
-  width: 900px;
+  width: 1316px;
+  height: 500px;
   left: 0px;
   right: 0px;
   margin-left: auto;
@@ -79,7 +89,8 @@ body {
 
 #section3-2 .fitur3 {
   position: absolute;
-  width: 900px;
+  width: 1316px;
+  height: 500px;
   left: 0px;
   right: 0px;
   margin-left: auto;
@@ -93,8 +104,21 @@ body {
   background-color: var(--warna2);
 }
 
+#section3-2 .box-judul {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+#section3-2 p {
+  font-weight: 400;
+  font-size: 21px;
+}
+
 #section3-2 .box-fitur {
   display: block;
+  width: 557px;
+  height: 130px;
   padding: 10px;
   margin: 20px 0;
   background-color: #ffeac1;
@@ -103,16 +127,31 @@ body {
 }
 
 #section3-2 .box-fitur img {
-  width: 60px;
-  height: 60px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 90px;
+  height: 90px;
+}
+
+#section3-2 .margin-fitur {
+  margin-top: 40px;
 }
 
 #section3-2 .slide-indicator {
   position: absolute;
-  margin-top: 380px;
-  margin-left: -75px;
+  margin-top: 520px;
+  margin-left: -224px;
+  width: 1300px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #DFDFDF;
+}
+
+#section3-2 .indicator {
+  position: absolute;
+  margin-left: 10px;
   width: 300px;
-  height: 5px;
-  border-radius: 10px;
+  height: 12px;
+  border-radius: 8px;
   background-color: #C4C4C4;
 }
